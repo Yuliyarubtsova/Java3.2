@@ -7,7 +7,6 @@ public class Main {
         if (refill < limit) {
             bonus = 0;
         }
-        long balance = initial_balance / 100 + refill / 100 + bonus / 100;
-        System.out.println(balance);
+        System.out.println(bonus);
     }
 }
